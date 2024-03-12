@@ -77,6 +77,13 @@ describe('multiply', () => {
 });
 
 describe('divide', () => {
+  expected = 2;
+    actual = sum(8, 4);
+    expect(actual).toBe(expected);
+
+    expected = 5;
+    actual = sum(15, 3);
+    expect(actual).toBe(expected);
 
 });
 
