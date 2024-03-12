@@ -15,7 +15,7 @@ const divide = function(a, b){
 }
 
 const modulus = function(a, b){
-    return a & b;
+    return a % b;
 }
 
 const even = function(num) {

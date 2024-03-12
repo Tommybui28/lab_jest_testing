@@ -55,47 +55,51 @@ describe('sum', () => {
 });
 
 describe('subtract', () => {
+  test('can subtract two small positive numbers', () => {
   expected = 8;
-    actual = sum(15, 7);
+    actual = subtract(15, 7);
     expect(actual).toBe(expected);
 
     expected = 5;
-    actual = sum(10, 5);
+    actual = subtract(10, 5);
     expect(actual).toBe(expected);
-
+  });
 });
 
 describe('multiply', () => {
+  test('can multiply two small positive numbers', () => {
   expected = 10;
-    actual = sum(2, 5);
+    actual = multiply(2, 5);
     expect(actual).toBe(expected);
 
     expected = 16;
-    actual = sum(2, 8);
+    actual = multiply(2, 8);
     expect(actual).toBe(expected);
-
+  });
 });
 
 describe('divide', () => {
+  test('can divide two small positive numbers', () => {
   expected = 2;
-    actual = sum(8, 4);
+    actual = divide(8, 4);
     expect(actual).toBe(expected);
 
     expected = 5;
-    actual = sum(15, 3);
+    actual = divide(15, 3);
     expect(actual).toBe(expected);
-
+  });
 });
 
 describe('modulus', () => {
+  test('can do a modulus two small positive numbers', () => {
   expected = 2;
-    actual = sum(8, 3);
+    actual = modulus(8, 3);
     expect(actual).toBe(expected);
 
     expected = 1;
-    actual = sum(9, 2);
+    actual = modulus(9, 2);
     expect(actual).toBe(expected);
-
+  });
 });
 
 describe('even', () => {
