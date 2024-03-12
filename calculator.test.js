@@ -103,9 +103,19 @@ describe('modulus', () => {
 });
 
 describe('even', () => {
+  test('check if number is even', () => {
+    expect(even(8)).toBe(true);
+  
+    expect(even(87)).toBe(false);
+  });
 
 });
 
 describe('odd', () => {
+  test('check if number is even', () => {
+    expect(odd(5)).toBe(true);
+  
+    expect(odd(88)).toBe(false);
+  });
 
 });
