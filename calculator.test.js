@@ -88,6 +88,13 @@ describe('divide', () => {
 });
 
 describe('modulus', () => {
+  expected = 2;
+    actual = sum(8, 3);
+    expect(actual).toBe(expected);
+
+    expected = 1;
+    actual = sum(9, 2);
+    expect(actual).toBe(expected);
 
 });
 
